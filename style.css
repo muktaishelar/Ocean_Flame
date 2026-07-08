@@ -35,7 +35,7 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 .card-img-top{
-  max-width: 300px;
+  width:100%;
   aspect-ratio: 16/9;
 }
 
