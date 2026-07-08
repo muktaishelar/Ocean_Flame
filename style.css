@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./img/HeroBannerImg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.menu-card {
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-img-top{
+  max-width: 300px;
+  aspect-ratio: 16/9;
+}
+
+.gallery-img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+  
+}
+
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark .card {
+  background: #222;
+  color: white;
+}
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 3px solid orange;
+  outline-offset: 2px;
+}
